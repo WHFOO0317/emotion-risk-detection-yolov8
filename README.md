@@ -25,12 +25,26 @@ It detects emotions from webcam video and calculates a simple risk score based o
 
 ## How to Run
 
-1. Install dependencies:
+### 1. Install dependencies
 ```bash
 pip install ultralytics opencv-python pandas openpyxl matplotlib
-Open Webcam detection.ipynb
-Update the model path to your trained YOLOv8 weights
-Run all cells to start webcam emotion detection
-```markdown
-## Notes
-This project is a prototype system for emotion-based risk screening and is not intended as a medical diagnosis tool.
+```
+### 2. Launch Jupyter Notebook
+```bash
+jupyter notebook
+```
+### 3. Open the project file
+Open the following file in Jupyter:
+```bash
+Webcam detection.ipynb
+```
+### 4. Update model path
+In the notebook, replace the model path with your trained YOLOv8 model:
+```bash
+C:/Users/your_path/emotion_detect_final_best.pt
+```
+### 5. Run the system
+```bash
+Run all cells to start real-time emotion detection using webcam.
+```
+Note: This project uses Jupyter Notebook for demonstration purposes.
